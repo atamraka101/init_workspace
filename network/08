@@ -1,0 +1,6 @@
+# Find the provider of who.int
+# nslookup who.int | grep "Address"| awk 'NR == 2 {print $2}'
+# 104.17.113.188
+# whois 104.17.113.188 | grep "OrgName"
+# OrgName:        Cloudflare, Inc.
+Cloudflare, Inc.
