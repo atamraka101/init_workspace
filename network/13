@@ -1,0 +1,5 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+# ipconfig getifaddr en0
+# 10.11.6.6
+# nslookup 10.11.6.6
+name = c1r6p6.hive.fi.
