@@ -1,0 +1,4 @@
+# List all services which are started at boot time and name this kind of services
+# Systemctl - control the systemd system and service manager
+# systemd is a init system and service manager for Linux operating systems
+sudo systemctl list-unit-files --type=service --state=enabled --all

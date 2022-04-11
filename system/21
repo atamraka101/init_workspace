@@ -1,0 +1,4 @@
+# List all real users on the VM
+# nobody UID - 65534 ; used by daemon programs
+# Real users - 1000 to 9999
+cat /etc/passwd | awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}'
