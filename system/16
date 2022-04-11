@@ -1,2 +1,10 @@
 # Find the service which makes it possible to run specific tasks following a regular
 # schedule
+cron
+# cron runs tasks called cron jobs that was scheduled in crontab in the background.
+# (sudo) crontab -l -cmd lists the scheduled tasks.
+# crontab -e | sudo crontab -u root -e to add your scheduled task. 
+# For eg. you can run a backup of all your user accounts at 5 am every week then,
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# minute hour dom month dow command
+# dom - day of the month ; dow - day of the week
