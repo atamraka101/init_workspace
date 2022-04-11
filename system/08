@@ -1,0 +1,5 @@
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+# first, generate SSH keys using cmd ssh-keygen
+# then, using cmd ssh-copy-id username@remote_host eg. user@debian
+# then, the authorized key file is created in the home directory.
+cat ~/.ssh/authorized_keys
