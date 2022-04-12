@@ -1,1 +1,4 @@
 #!/bin/sh
+
+echo -e "Do you know the capital city of a country\n"
+echo -e "What is the capital city of\n"
