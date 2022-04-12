@@ -1,6 +1,6 @@
 # Explain how connect yourself as new user. (With graphic session and ssh session)
 # Graphic Session:
-#   After the login manager is shown, enter usename and password.
+#   After we launch the VM and the login manager is shown, enter usename and password.
 #
 # SSH Session:
 #   In VM settings->network change NAT to bridge adapter and start the system
