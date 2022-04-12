@@ -1,4 +1,19 @@
 #!/bin/sh
 
-echo -e "Do you know the capital city of a country\n"
-echo -e "What is the capital city of\n"
+COUNT = 0
+echo -e "Do you know the capital city?\n"
+echo -e "Finland\n"
+echo -e "1. Mumbai  2. Sofia  3. Helsinki"
+read -p "Your answer: " ANSWER
+case "$ANSWER" in
+    [1] | [2])
+        echo "Wrong answer"
+        ;;
+    [3])
+        echo "Correct answer"
+        ((COUNT++))
+        ;;
+    *)
+        echo "You have missed your chance, Next questions"
+        ;;
+esac
