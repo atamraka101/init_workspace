@@ -10,4 +10,4 @@
 #   then, start the service using sudo service ssh start
 #   then, get the IP address of the Debian system in VM using hostname -I i.e, 10.11.199.31
 #   To connect via ssh on the VM use the following commands in Terminal, ssh user@IPaddress 
-#       i.e, ssh anjala@10.11.199.31 and enter password if asked.
+#       e.g, ssh anjala@10.11.199.31 and enter password if asked.
