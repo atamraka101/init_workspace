@@ -1,2 +1,4 @@
 # Find the command that kills the background command’s process
-sudo pkill tail
+# pkill sends signals to the processes of a running program based on given criteria.
+# -1 to reload; -9 to kill; -15 to stop gracefully
+sudo pkill -9 tail

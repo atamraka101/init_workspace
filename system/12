@@ -1,3 +1,6 @@
 # Figure out the exact size of each folder of /var in a humanly understandable way
 # followed by the path of it.
+# du command shows how much disk space is used or allocated disk space for the given file.
+# -s displays total size of the specified directory.
+# du can check disk space for specified path or disk usage of the current working directory, if not specified.
 sudo du -sh /var/*

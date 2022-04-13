@@ -1,4 +1,5 @@
 # What file contains the RSA keys of systems that are authorized to connect via SSH?
+# RSA algorithm is asymmetric cryptography algorithm that works on two different keys i.e. Public Key and Private Key.
 # first, generate SSH keys using cmd ssh-keygen
 # then, using cmd ssh-copy-id username@remote_host eg. user@debian
 # then, the authorized key file is created in the home directory.

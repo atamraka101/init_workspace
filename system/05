@@ -1,2 +1,8 @@
 # Name the command that determines the state of the SSH service.
+# Systemctl controls the systemd system and service manager.
+# also, the central management tool for controlling the init system.
+# Secure Shell Protocol (SSH) is a cryptographic network protocol with client-server architecture
+# SSH operates network services securely over an unsecured network.
+# systemd/init is a system and service manager for Linux operating systems.
+# When (systemd)runs as first process on boot as pid 1, it acts as init system that brings up and maintains userspace services.
 sudo systemctl status ssh

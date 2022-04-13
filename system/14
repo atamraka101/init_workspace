@@ -1,2 +1,5 @@
 # Run the ‘tail -f /var/log/syslog‘ command in background
+# tail command reads a file and outputs the last part only.
+# jobs -l shows processes running in background.
+# & for running background.
 sudo tail -f /var/log/syslog &

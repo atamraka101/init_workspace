@@ -1,2 +1,4 @@
 # Find the command that list all packages
+# apt command is for the package management system.
+# 
 apt list --installed

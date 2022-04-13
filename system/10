@@ -1,2 +1,6 @@
 # Name the command that lists the partition tables of drives?
+# Disk partitioning or disk slicing is partitions on secondary storage to manage them separately.
+# eg. C:, D:, E: on Windows
+# fdisk(fixed disk or format disk) displays the partitions and details like file system type.
+# Also, fdisk is a disk manipulation utility.
 sudo fdisk -l
