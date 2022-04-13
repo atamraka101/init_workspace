@@ -1,2 +1,4 @@
 # Find the IP that was assigned to you by dhcp server
+# A DHCP(Dynamic Host Configuration Protocol) Server is a network server that automatically provides and assigns IP addresses, default gateways and other network parameters # # to client devices.
+# When you use wifi on your home network, typically your router is a DHCP server.In a large enterprise setting, a DHCP server is usually # a dedicated computer.
 ipconfig getifaddr en0

@@ -1,3 +1,4 @@
 # Identify the MAC address of the Wi-Fi card
 # networksetup - configuration tool for network settings in System Preferences.
+# -A flag in grep prints num lines of trailing context after each match
 networksetup -listallhardwareports | grep -A 2 'Wi-Fi'

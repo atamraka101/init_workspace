@@ -1,7 +1,10 @@
 # Identify and display the Ethernet interface characteristics:
 # (a) Identify broadcast address
+# broadcast address is an IP address which targets all systems on a specific subnet network instead of single hosts.
 ifconfig en0 | grep "broadcast" | cut -d " " -f 6
 
 # (b) Identify all IP adresses which are part of the same subnet
+# arp(Address Resolution Protocol) displays all IP addresses connected to the local network.
+# -a prompts the device to list all the IP addresses found within the ARP cache for the associated network.
 # first, ping -t 1 <broadcast address> then,
 arp -a | cut -d " " -f 2 | sed "s/^.//;s/.$//"

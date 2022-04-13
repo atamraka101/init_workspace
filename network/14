@@ -1,2 +1,4 @@
 # What file contains the local DNS entries?
+# The hosts file is a file on your computer or other device 
+# that is used as the first step in the DNS lookup process for DNS hostname resolution.
 /etc/hosts

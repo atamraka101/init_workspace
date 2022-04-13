@@ -1,4 +1,5 @@
 # Get the list of the network interfaces of the machine without displaying any detail
 # for these interfaces. Only the list of names.
+# ifconfig(interface configuration)- used for configuring, controlling and quering TCI/IP network interface parameters.
 # -l flag gives list of the names of all network interfaces available in the system.
 ifconfig -l

@@ -1,4 +1,4 @@
 # Use the output of the previous command to find the name and IP address of the
 # device that makes the link between you (local network) and the outside world
-# Network Address Translation (NAT) convert local IP to public for connecting Internet
+# Network Address Translation (NAT) converts local IP to public IP and vice versa for connecting Internet to the local hosts.
 nat (10.60.1.1)

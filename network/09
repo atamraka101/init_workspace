@@ -1,7 +1,7 @@
 # Find the external IP of 42.fr
-# dig (domain information groper)
+# dig (domain information groper)- DNS lookup utility
 # dig +short 42.fr
-# The external or Public IP address is the IP address of the router interface 
-# that is connected to the Internet assigned by ISP.
+# +short : cuts down the output
+# The external or Public IP address is the IP address of the router interface that is connected to the Internet assigned by ISP.
 # nslookup gives the same result too.
 163.172.250.16
