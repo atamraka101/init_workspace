@@ -1,2 +1,41 @@
 #!/bin/sh
 
+while [ -n $OPTION ];
+do    
+    echo "Choose a feature you wish to see in the system"
+    echo "1. Time since your system was last booted."
+    echo "2. Checks the state of the SSH service."
+    echo "3. Currently logged on users."
+    echo "4. Displays the available space"
+    echo "5. Exit"
+    read OPTION
+    if [ $OPTION -lt 1] || [ $OPTION -gt 4]
+        then
+        echo "Enter a number from 1 to 4:"
+    elif [ $OPTION -eq 5]
+        then
+        echo "BYE BYE!!!"
+        break
+    else
+        break
+    fi
+done
+1. uptime
+2. sudo systemctl status ssh
+3. who
+4. df -h
+5. Exit
+case "$OPTION" in
+    1)
+        uptime
+    ;;
+    2)
+        sudo systemctl status ssh
+    ;;
+    3)
+        who
+    ;;
+    4)
+        df -h
+    ;;
+esac
