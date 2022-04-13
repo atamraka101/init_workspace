@@ -1,5 +1,5 @@
 #!/bin/sh
-echo -e "Listing all real users in the system\n"
+echo -e "List of all real users in the system\n"
 cat /etc/passwd | awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}'
 
 echo -e "\nEnter username that you want to delete:"
@@ -12,7 +12,7 @@ if [-n $USER]
         echo -e "Deleting in process\n"
         sudo killall -u $USER
         sudo userdel -rf $USER
-        echo -e  "$USER deleted."
+        echo -e "\n$USER deleted."
     else
-        echo "$USER not found."
+        echo -e "\n$USER not in the system."
 fi
